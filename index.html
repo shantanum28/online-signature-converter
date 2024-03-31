@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Signature Converter</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section class="hero is-fullheight is-light is-bold">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-10">
+            <div class="box has-text-centered py-6 px-4">
+              <canvas id="signature-pad" class="signature-pad" width="400" height="200"></canvas>
+              <div class="field is-grouped is-grouped-centered mt-4">
+                <p class="control">
+                  <button id="clear-btn" class="button is-danger is-light">Clear</button>
+                </p>
+                <p class="control">
+                  <button id="save-btn" class="button is-success is-light">Save as PNG</button>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/signature_pad/1.5.3/signature_pad.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

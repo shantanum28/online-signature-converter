@@ -26,7 +26,7 @@ To use this project locally, follow these steps:
    ```
 3. Start the Python HTTP server:
    ```bash
-   python -m http.server 8000
+   python3 -m http.server 8000
    ```
 4. Open your web browser and go to `http://localhost:8000` to access the project.
 
